@@ -480,7 +480,7 @@ unsigned long long Fp6_3over2input(bigInteger A0[],bigInteger A1[],bigInteger A2
 unsigned long long Fp6_2over3input(bigInteger A0[], bigInteger A1[], bigInteger B0[], bigInteger B1[], bigInteger res[]){
     
 
-    int t[5];
+    long long t[5];
 
     passModPrime(); // initial and set the prime p
 
